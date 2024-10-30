@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  background-color: #253348;
+}
+
+.container-navbar {
+  background-color: #000000;
+  height: 7vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Izaz {
+  color: white;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all;
+  transition-duration: 500ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.Izaz:hover {
+  color: #f9a825;
+}
+
+ul {
+  display: flex;
+  gap: 80px;
+  list-style-type: none;
+  color: white;
+  margin-right: 20px;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  transition: all;
+  transition-duration: 500ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+ul a:hover {
+  color: #f9a825;
+  border-bottom: 1px solid #f9a825;
+}
+
+.content {
+  display: flex;
+  height: 93vh;
+}
+
+.wrap {
+  position: absolute;
+}
+
+.content-h2 {
+  color: white;
+  padding-top: 120px;
+  padding-left: 60px;
+  font-size: 30px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content-h1 {
+  color: white;
+  font-size: 60px;
+  padding-left: 60px;
+  padding-top: 10px;
+  letter-spacing: 10px;
+}
+
+.with-line {
+  position: relative;
+  display: inline-block;
+  padding-left: 140px;
+  padding-top: 10px;
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.with-line::before {
+  content: "";
+  position: absolute;
+  padding-left: 60px;
+  left: 60px;
+  top: 28px;
+  width: 8px;
+  height: 2px;
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Sesuaikan dengan warna garis yang diinginkan */
+}
+
+p {
+  padding-top: 10px;
+  padding-left: 60px;
+  color: white;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.yoji {
+  width: 45%;
+}
