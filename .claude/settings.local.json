@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm /Users/izazfalih/portfolio-izaz/postcss.config.js)"
+    ],
+    "additionalDirectories": [
+      "/Users/izazfalih/portfolio-izaz"
+    ]
+  }
+}
