@@ -230,7 +230,6 @@ const FuzzyText = ({
 
       const handleTouchMove = e => {
         if (!enableHover) return;
-        e.preventDefault();
         const rect = canvas.getBoundingClientRect();
         const touch = e.touches[0];
         const x = touch.clientX - rect.left;
