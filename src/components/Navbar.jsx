@@ -3,6 +3,7 @@ function Navbar() {
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
+    { href: "#contact", label: "Contact" },
   ];
 
 return (
@@ -29,10 +30,10 @@ return (
         </ul>
 
         <a
-          href="#contact"
+          href="CV_Izaz_Falih.pdf"
           className="px-5 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold hover:bg-slate-100 transition-colors"
         >
-          Contact
+          Resume
         </a>
       </nav>
     </header>

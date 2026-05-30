@@ -33,11 +33,14 @@ function About() {
       </section>
 
       <section id="experiences" className="py-20 px-6">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-bold text-white tracking-tight">
               Experience
             </h2>
+            <h3 className="text-xl text-slate-400 mt-2">
+              My professional journey and key experiences
+            </h3>
           </div>
 
           <div className="bg-white/5 border border-white/10 backdrop-blur-md p-12 rounded-2xl shadow-xl flex flex-col items-center justify-center min-h-[400px] gap-4">
