@@ -30,7 +30,8 @@ return (
         </ul>
 
         <a
-          href="CV_Izaz_Falih.pdf"
+          href="/CV_IZAZ_FALIH.pdf"
+          download="CV_IZAZ_FALIH.pdf"
           className="px-5 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold hover:bg-slate-100 transition-colors"
         >
           Resume
